@@ -1,0 +1,195 @@
+body {
+    background: url("bg-1.png");
+
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;
+text-decoration: none;
+}
+
+
+/* Nav Bar */
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    background-color: #4caf50;
+    border: #000 solid 5px
+	
+}
+
+nav .navbar{
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .navbar a:hover{
+    color: #fff;
+  }
+
+#nav-logo {
+    float: left;
+    margin-left: 30px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-links li {
+    float: left;
+    list-style: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    margin-inline: 30px;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-links a{
+    color: #000;
+}
+
+.nav-social {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-social .icons a {
+    margin: 0 10px;
+    color: #000000;
+    font-size: 22px;
+}
+
+
+/********************************************/
+h2{
+   margin-left: 20px;
+   color: #4caf50;
+}
+
+.wrapper{
+	width: 100%
+}
+
+.wrapper img{
+    filter: grayscale(100%);
+}
+
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+
+.img-info{
+	width:50%;
+	float: left;
+}
+
+.img-info h2{
+	padding: 95px 50px 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	color: #4caf50;
+	line-height: 44px;
+}
+
+.img-info p{
+	padding: 0px 73px 20px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.imageblue{
+	margin-top: 90px;
+	margin-left: 100px;
+}
+
+.table{
+	font-size: 50px;
+	Color: #4caf50;
+    margin: 30px 10px;
+}
+
+.ImageS{
+	width:25%;
+	float: left;
+	
+}
+
+.ImageH{
+	width:25%;
+	float:left;	
+}
+
+.ImageD{
+	width:25%;
+	float:left;
+}
+
+.ImageP{
+	width:25%;
+	float:left;
+}
+
+@media only screen and(min-width: 600){
+	nav{
+    	display:block;
+	}
+	.wrapper{
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.img-info p{
+		padding: 20px 0px 0px;
+	}
+	
+	.imageblue{
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	.ImageS{
+		width:100%;
+		float:none;
+	}
+
+	.ImageH{
+		width:100%;
+		float:none;
+	}
+
+	.ImageD{
+		width:100%;
+		float:none;		
+	}
+
+	.ImageP{
+		width:100%;
+		float:none;		
+	}
+}
+
+/*Footer*/
+
+.copyrights {
+	color: #ffffff;
+	border-top: 2px solid rgba(255, 255, 255, 0.09);
+	margin-top: 30px;
+	text-align: center;
+	padding: 40px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.copyrights a { color: #ffffff; }
